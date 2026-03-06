@@ -1,0 +1,14 @@
+[project]
+name = "chatguard"
+version = "0.1.0"
+description = "A safe LLM chatbot powered by Qwen2.5-Coder via HuggingFace API with TrustGuard LLM Judge"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.133.1",
+    "gradio>=4.44",
+    "huggingface-hub>=1.5.0",
+    "python-dotenv>=1.2.1",
+    "trustguard>=0.2.2",
+    "uvicorn>=0.41.0",
+]
